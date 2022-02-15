@@ -1,0 +1,7 @@
+venv/*
+.idea/*
+*.env
+*.html
+*.csv
+ticker_data/*
+__pycache__/*

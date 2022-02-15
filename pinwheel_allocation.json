@@ -1,0 +1,80 @@
+{
+  "Type": "Portfolio",
+  "Name": "Pinwheel Portfolio",
+  "Allocation": 1.0,
+  "Subclasses": [
+    {
+      "Type": "Asset Class",
+      "Name": "Domestic Stocks",
+      "Allocation": 0.25,
+      "Subclasses": [
+        {
+          "Type": "Asset Style",
+          "Name": "Total Stock Market",
+          "Allocation": 0.6
+        },
+        {
+          "Type": "Asset Style",
+          "Name": "Individual Stocks",
+          "Allocation": 0.4
+        }
+      ]
+    },
+    {
+      "Type": "Asset Class",
+      "Name": "International Stocks",
+      "Allocation": 0.25,
+      "Subclasses": [
+        {
+          "Type": "Asset Style",
+          "Name": "World Total Stock Market",
+          "Allocation": 0.5
+        },
+        {
+          "Type": "Asset Style",
+          "Name": "International Value",
+          "Allocation": 0.3
+        },
+        {
+          "Type": "Asset Style",
+          "Name": "Emerging Markets",
+          "Allocation": 0.2
+        }
+      ]
+    },
+    {
+      "Type": "Asset Class",
+      "Name": "Bonds",
+      "Allocation": 0.25,
+      "Subclasses": [
+        {
+          "Type": "Asset Style",
+          "Name": "Aggregate Bond Index",
+          "Allocation": 0.6
+        },
+        {
+          "Type": "Asset Style",
+          "Name": "Treasury Inflation Protected Securities (TIPS)",
+          "Allocation": 0.4
+        }
+      ]
+    },
+    {
+      "Type": "Asset Class",
+      "Name": "Real Assets",
+      "Allocation": 0.25,
+      "Subclasses": [
+        {
+          "Type": "Asset Style",
+          "Name": "Real Estate Investment Trust (REIT)",
+          "Allocation": 0.6
+        },
+        {
+          "Type": "Asset Style",
+          "Name": "Gold ETF",
+          "Allocation": 0.4
+        }
+      ]
+    }
+  ]
+}
